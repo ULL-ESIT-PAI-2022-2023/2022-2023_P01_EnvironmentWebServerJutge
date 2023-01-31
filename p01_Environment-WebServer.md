@@ -316,8 +316,11 @@ $ nohup sudo -b npm start
 ```
 en el paso 21 anterior.
 
+22.- Ejecute en su máquina virtual el comando `history -a` y a continuación copie el fichero `~/.bash_history`
+con el nombre `HISTORY.txt` en el directorio raíz de esta práctica.
+
 ### La plataforma Jutge
-22. **TAREA #10** En su correo electrónico debe tener un mensaje de invitación a la plataforma Jutge.
+23. **TAREA #11** En su correo electrónico debe tener un mensaje de invitación a la plataforma Jutge.
 Acepte esa invitación y regístrese en la plataforma con su **cuenta de correo institucional**.
 
 [Jutge](https://jutge.org/) es una plataforma que ha sido desarrollada en la
