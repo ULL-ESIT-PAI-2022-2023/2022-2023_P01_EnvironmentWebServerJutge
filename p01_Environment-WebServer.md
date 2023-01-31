@@ -1,5 +1,5 @@
 # Práctica 1. El entorno de desarrollo de PAI. Node Express Static Web Server. Jutge
-### Factor de ponderación: 3
+### Factor de ponderación: 2
 
 ### Objetivos
 Los objetivos de esta práctica son:
@@ -334,18 +334,14 @@ que tratan de acreditar la bondad de la solución, que podría ser parcialmente 
 Algunos de esos tests son públicos y la programadora debiera encargarse de asegurar que su programa pasa
 esos tests públicos (ofrece los resultados esperados) antes de enviar el programa al juez.
 
+En la actualidad Jutge no permite compilar para trabajar en JavasScript/TypeScript de modo que la plataforma
+se utilizará exclusivamente como fuente de problemas de programación de complejidad creciente, para una
+iniciación en la programación con JavaScript/TypeScript.
+
 [Este documento](https://docs.google.com/presentation/d/14UvZPw4OJvogp6afLeouOAODcBNo5JhgePBQfkiAkic/edit?usp=sharing)
 contiene información algo más detallada sobre el uso de la plataforma Jutge. 
 Estúdielas antes de comenzar a trabajar con la misma.
 
-A la hora de escribir un programa para enviarlo a Jutge ha de tener en cuenta que el programa no ha 
-de escribir otra información como salida que la requerida por los tests de Jutge.
-De este modo, el mensaje inicial que se utiliza para que el programa escriba en pantalla tanto la utilidad
-del mismo como su modo de uso ha de omitirse.
-La recomendación que hacemos es que ese mensaje se escriba en una función que será (o no) invocada desde `main()`.
-
-Una vez que tenga su cuenta en Jutge, realice cuantos ejercicios sea capaz de programar y súbalos para su evaluación
-por el juez, hasta obtener un veredicto de 
-[AC](https://jutge.org/documentation/verdicts/AC)
-(Accepted).
+Una vez que tenga su cuenta en Jutge, realice JavaScript/TypeScript cuantos ejercicios sea capaz de programar
+haciendo que su solución pase los tests públicos disponibles en Jutge para cada problema.
 Cuantos más problemas resuelva, más incrementará sus capacidades como programadora.
