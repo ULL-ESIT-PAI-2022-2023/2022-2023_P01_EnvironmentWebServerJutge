@@ -1,3 +1,7 @@
 ## PAI Lab assignment 
+The project directory organization is as follows:
 
-Object Oriented Programming
+      .
+      ├── web-server
+      ├── www
+
