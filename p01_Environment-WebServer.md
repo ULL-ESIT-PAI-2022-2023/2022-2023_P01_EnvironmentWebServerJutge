@@ -121,7 +121,6 @@ sino de estudiar y entender el significado e implicaciones de cada uno de ellos.
 6. Inicie sesión en Linux en alguno de los PCs de la sala del Centro de Cálculo. 
 En este documento se denominará máquina remota a la máquina virtual (VM) del [IaaS-ULL](https://www.ull.es/servicios/stic/2015/10/27/nuevo-servicio-iaas/) 
 y máquina local al PC del centro de cálculo en el que está trabajando.
-
 Recuerde siempre que para poder conectarse por ssh con las máquinas virtuales de IaaS ull ha de autentificarse en la página 
 [acceso.ull.es](acceso.ull.es).  
 Recuerde asimismo que en caso de acceder desde fuera de del campus ULL ha de hacerlo mediante una conexión VPN. 
