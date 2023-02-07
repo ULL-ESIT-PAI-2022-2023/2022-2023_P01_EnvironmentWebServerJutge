@@ -134,7 +134,6 @@ Tenga en cuenta que la
 [interfaz web de las máquinas IaaS](https://iaas.ull.es)
 no soporta muchas conexiones concurrentes de modo que es conveniente que se conecte Ud. cuanto antes para no
 coincidir con otros estudiantes en esa conexión.
-
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/1-Ovirt-login.png)
 muestra la pantalla de acceso a la interfaz.  
 Vea el estado de la máquina y arránquela para comenzar a trabajar con ella.
