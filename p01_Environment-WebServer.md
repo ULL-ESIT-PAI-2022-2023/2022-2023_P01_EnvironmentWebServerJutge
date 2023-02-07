@@ -155,7 +155,7 @@ virtual utilizando `ssh` (sustituya la dirección IP por la de su máquina):
 ```
 $ ssh 16.6.131.106
 ```
-Recuerde que inicialmente las credenciales de acceso son: Username - `usuario` y password - `usuario`.
+Recuerde que inicialmente las credenciales de acceso son: Username: `usuario` y password: `usuario`.
 En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la
 nueva contraseña elegida.
 No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
