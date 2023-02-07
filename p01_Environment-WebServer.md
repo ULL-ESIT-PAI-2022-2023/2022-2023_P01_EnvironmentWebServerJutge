@@ -80,6 +80,7 @@ Virtual de la Asignatura.
 Siga las instrucciones de ese documento para acceder a la [interfaz web de las máquinas IaaS](https://iaas.ull.es)
 (necesitará establecer una conexión VPN).
 
+
 3. **TAREA #02** Acceda al [portal de gestión de usuarios](https://usuarios.ull.es/autogestion/cambio_alias/)
 del Servicio TIC de la ULL y configure allí una dirección de correo electrónico alternativa a su dirección
 `aluXXXX@ull.edu.es`.
@@ -129,6 +130,11 @@ Consulte [esta referencia](https://www.ull.es/servicios/stic/2016/05/10/servicio
 
 7. Acceda a la [interfaz web](https://iaas.ull.es/ovirt-engine/sso/login.html) 
 de la plataforma IaaS-ULL y autentifíquese en esa interfaz con sus credenciales (username + password) de la cuenta institucional. 
+Tenga en cuenta que la 
+[interfaz web de las máquinas IaaS](https://iaas.ull.es)
+no soporta muchas conexiones concurrentes de modo que es conveniente que se conecte Ud. cuanto antes para no
+coincidir con otros estudiantes en esa conexión.
+
 [Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/1-Ovirt-login.png)
 muestra la pantalla de acceso a la interfaz.  
 Vea el estado de la máquina y arránquela para comenzar a trabajar con ella.
@@ -144,21 +150,19 @@ Esta dirección será necesaria para establecer conexiones directas a la máquin
 Anote esa dirección IP puesto que la máquina conserva esa dirección IP de forma estable. 
 Si en algún momento experimenta dificultades de conexión, conecte a través de la interfaz web y compruebe que
 la dirección de la máquina no ha cambiado.
-Para consultar la IP de una máquina en un terminal Linux utilice el comando:
-```
-$ ip addr
-```
 
-8. Abra en el navegador la consola de la máquina (VNC Console (Browser)) y acceda a la misma.
-[Esta imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/3-ovirt-loginVM1.png)
-muestra la pantalla de acceso a la máquina a través de la consola en el navegador.   
+
+8. Abra en el ordenador local (el de la sala del Centro de Cálculo) una terminal y conecte con su máquina
+virtual utilizando `ssh` (sustituya la dirección IP por la de su máquina):
+```
+$ ssh 16.6.131.106
+```
 Recuerde que inicialmente las credenciales de acceso son: Username - `usuario` y password - `usuario`.
 En este primer acceso el sistema le solicitará que introduzca la contraseña actual y que escriba dos veces la
-nueva contraseña elegida (véase
-[la imagen](https://raw.githubusercontent.com/fsande/IB-P01-EntornoIaaS/3b0223eef4fff02835108ac59ea8d2f2f26c43cc/img/3-ovirt-loginVM1.png)).
+nueva contraseña elegida.
 No se preocupe por la contraseña por ahora puesto que siempre la puede cambiar en el futuro con el comando
 `passwd` pero **anote** el password que elija para no perderlo u olvidarlo.
-La recomendación es que elija ahora un password muy simple (algo como `abcd` y lo cambie por otro que sea robusto y fácil de recordar para Ud.
+La recomendación es que elija ahora un password muy simple (algo como `minombreenminusculasysintildes` y lo cambie por otro que sea robusto y fácil de recordar para Ud.
 cuando acceda posteriormente a la máquina a través de ssh.  
 Compruebe a continuación el sistema operativo y versión del mismo:
 ```
