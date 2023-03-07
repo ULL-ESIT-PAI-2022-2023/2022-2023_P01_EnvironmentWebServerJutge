@@ -13,9 +13,9 @@
  */
 
 function calculatePI(): void {
-  let numRectangles = prompt("Enter number of rectangles:", "0");
+  const numRectangles = prompt('Enter number of rectangles:', '0');
   if (numRectangles && Number(numRectangles) > 0) {
-    let deltaX: number = 1.0 / Number(numRectangles);
+    const deltaX: number = 1.0 / Number(numRectangles);
     let x: number = 0;
     let Pi: number = 0;
     while (x < 1) {
@@ -28,6 +28,6 @@ function calculatePI(): void {
     alert(Pi);
   }
   else {
-    alert("Canceled or Error in input: Input must be positive.");
+    alert('Canceled or Error in input: Input must be positive.');
   }
 }
