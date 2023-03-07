@@ -11,7 +11,7 @@
  *
  * @see {@link https://towardsdatascience.com/how-to-make-pi-part-1-d0b41a03111f}
  */
-function calculatePI() {
+function CalculatePI() {
     var numRectangles = prompt('Enter number of rectangles:', '0');
     if (numRectangles && Number(numRectangles) > 0) {
         var deltaX = 1.0 / Number(numRectangles);
